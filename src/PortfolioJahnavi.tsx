@@ -236,7 +236,7 @@ export default function PortfolioJahnavi() {
       </header>
 
       {/* Hero */}
-      <section className="relative overflow-hidden border-b dark:border-zinc-900">
+      <section className="relative overflow-hidden border-b dark:border-zinc-900 bg-gradient-to-b from-white via-zinc-50 to-white dark:from-zinc-950 dark:via-zinc-950/60 dark:to-zinc-950">
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
           <div>
             <motion.h2 initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="text-3xl font-semibold tracking-tight md:text-5xl">
