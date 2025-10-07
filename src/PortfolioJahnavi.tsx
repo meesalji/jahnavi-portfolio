@@ -246,8 +246,7 @@ export default function PortfolioJahnavi() {
               5+ years crafting enterprise systems with Java/Spring Boot, Kafka, and cloud‑native stacks — and turning complex workflows into simple, elegant product experiences.
             </motion.p>
             <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2, duration: 0.5 }} className="mt-6 flex flex-wrap items-center gap-3">
-              <LinkPill href="#" icon={Github} label="GitHub" />
-              <LinkPill href="#" icon={Linkedin} label="LinkedIn" />
+              <LinkPill href="#" icon={https://www.linkedin.com/in/jahnavimeesala/} label="LinkedIn" />
               <LinkPill href="#projects" icon={Globe} label="Featured Work" />
             </motion.div>
             <div className="mt-8 flex flex-wrap gap-2">
@@ -277,7 +276,7 @@ export default function PortfolioJahnavi() {
         <div className="grid gap-6 md:grid-cols-3">
           <Card className="md:col-span-2">
             <CardHeader>
-              <CardTitle>Hi, I’m Jahnavi — I design for scale and for people.</CardTitle>
+              <CardTitle>Hi, I’m Jahnavi Meesala — I design for scale and for people.</CardTitle>
               <CardDescription>
                 Pragmatic builder focused on reliable systems and clear, intuitive experiences.
               </CardDescription>
